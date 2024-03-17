@@ -1,0 +1,71 @@
+.how-its-works {
+    padding: 147px 0 161px;
+    text-align: center;
+    .text-holder {
+        margin: 0 0 137px;
+    }
+    h1 {
+        text-transform: uppercase;
+        letter-spacing: -0.75px;
+        font: 30px/36px 'Gotham', Arial, Helvetica, sans-serif;
+        color: #394b50;
+        margin: 0;
+    }
+    span {
+        font: 18px/22px 'Lato', Arial, Helvetica, sans-serif;
+        color: #394b50;
+    }
+    .box-holder {
+        display: flex;
+        margin: 0 0 75px -40px;
+        position: relative;
+    }
+    .box {
+        width: 25%;
+        margin: 0 0 20px 40px;
+        padding: 0 22px;
+        position: relative;
+    }
+    h2 {
+        color: #394b50;
+        font: 20px/22px 'Lato', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    p {
+        color: #7b7b7b;
+    }
+    a {
+        background-color: $primary-color;
+        padding: 15px 28px;
+        color: #fff;
+        text-transform: uppercase;
+        font: 14px/17px 'Lato', Arial, Helvetica, sans-serif;
+        transition: background-color .3s;
+    }
+    a:hover {
+        background-color: darken($primary-color, 15%);
+    }
+    i {
+        font-size: 72px;
+        line-height: 1px;
+        padding: 0 0 106px;
+    }
+    .step-2::before {
+        position: absolute;
+        content: url(../images/Arrow_1-img.png);
+        top: -82px;
+        left: -94px;
+    }
+    .step-3::before {
+        position: absolute;
+        content: url(../images/arrow-2-img.png);
+        top: 14px;
+        left: -96px;
+    }
+    .step-4::before {
+        position: absolute;
+        content: url(../images/Arrow_1-img.png);
+        top: -85px;
+        left: -101px;
+    }
+}

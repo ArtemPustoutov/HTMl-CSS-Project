@@ -1,0 +1,115 @@
+.choose {
+    background-color: #e7edf3;
+    text-align: center;
+    padding: 127px 0 118px 0;
+    .text-holder {
+        margin: 0 0 45px;
+    }
+    h1 {
+        color: #394b50;
+        font: 30px/36px 'Gotham', Arial, Helvetica, sans-serif;
+        letter-spacing: -0.75px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    span {
+        color: #75888d;
+        font: 18px/22px 'Lato', Arial, Helvetica, sans-serif;
+    }
+}
+.choose .card-holder {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 45px;
+    .card {
+        width: 33%;
+        border: 1px solid #ccd5df;
+        background-color: #fff;
+        margin:  31px 0 32px;
+        padding: 28px 0 55px;
+    }
+    h2 {
+        text-transform: uppercase;
+        font: 300 25px/30px 'Lato', Arial, Helvetica, sans-serif;
+        color: #818b95;
+        margin: 20px 0 15px;
+    }
+    .price {
+        text-transform: uppercase;
+        color: #818b95;
+    }
+    span {
+        color: $primary-color;
+        font: 60px/72px 'Lato', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 0 0 -5px;
+    }
+    .text {
+        font: 14px/17px 'Lato', Arial, Helvetica, sans-serif;
+        display: block;
+        margin: 0 0 32px;
+    }
+    sup {
+        font: 32px/36px 'Lato', Arial, Helvetica, sans-serif;
+    }
+    ul {
+        list-style: none;
+        margin: 0 0 29px;
+        padding: 0 32px;
+    }
+    li {
+        text-transform: uppercase;
+        font: 14px/40px 'Lato', Arial, Helvetica, sans-serif;
+        color: #b5bbc1;
+        border-top: 1px solid #e2e9f0;
+    }
+    a {
+        color: #fff;
+        padding: 12px 20px;
+        background-color: $primary-color;
+        text-transform: uppercase;
+        font: 14px/17px 'Lato', Arial, Helvetica, sans-serif;
+        transition: background-color .3s;
+    }
+    a:hover {
+        background-color: darken($primary-color, 15%);
+    }
+}
+.choose .card-holder .premium {
+    background-color: #709dca;
+    border: none;
+    margin: 0;
+    padding: 60px 0 0 0;
+    width: 34%;
+    ul {
+        padding: 0 32px;
+        margin: 0 0 29px;
+    }
+    li {
+        color: #c2e1ff;
+    }
+    .price {
+        text-transform: uppercase;
+        color: #fff;
+    }
+    h2 {
+        text-transform: uppercase;
+        font: 300 25px/30px 'Lato', Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    span {
+        font: 60px/72px 'Lato', Arial, Helvetica, sans-serif;
+        color: #fff;
+        margin:  0 0 -3px;
+        display: inline-block;
+    }
+    .text {
+        font: 14px/17px 'Lato', Arial, Helvetica, sans-serif;
+        display: block;
+        margin: 0 0 29px;
+    }
+    sup {
+        font: 32px/36px 'Lato', Arial, Helvetica, sans-serif;
+    }
+}

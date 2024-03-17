@@ -1,0 +1,62 @@
+$primary-color: #ffbb42;
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/BrandonGrotesque-Bold.woff2') format('woff2'),
+        url('../fonts/BrandonGrotesque-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font: 13px/22px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0 0 8px;
+}
+.center-block {
+    max-width: 1210px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+@import "header";
+@import "boost";
+@import "our-services";
+@import "about-us";
+@import "choose";
+@import "how-its-works";
+@import "happy-clients";
+@import "newsletter";
+@import "adress";
+@import "footer"

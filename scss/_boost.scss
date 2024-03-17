@@ -1,0 +1,110 @@
+.boost {
+    background-color: #709dca;
+    text-align: center;
+    padding: 101px 0 1px;
+    .text-holder {
+        margin: 0 0 32px;
+    }
+    h1 {
+        font: 35px/42px 'Gotham', Arial, Helvetica, sans-serif;
+        color: #fff;
+        letter-spacing: -0.88px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    span {
+        font: 16px/20px 'Open Sans', Arial, Helvetica, sans-serif;
+        color: #fff;
+        letter-spacing: -0.38px;
+    }
+    .form-holder {
+        margin: 0 0 66px;
+        padding: 0 41px 0;
+    }
+    .image-holder {
+        margin: 0 0 -104px;
+    }
+    img {
+        margin: 0 0 12px;
+        max-width: 100%;
+        height: auto;
+    }
+}
+.boost .request-form {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    .icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #6e6e6e;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
+    border: none;
+    width: 100%;
+    height: 46px;
+    font-size: 13px;
+    line-height: 16px;
+    border-radius: 2px;
+    padding: 10px 15px 10px 41px;
+    font: 13px/16px "Open Sans", Arial, Helvetica, sans-serif;
+    }
+}
+.boost .request-form input[type="submit"] {
+    width: 211px;
+    height: 46px;
+    background-color: $primary-color;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font: 14px/17px "Open Sans", Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 2px;
+    transition: background-color .3s;
+}
+.boost .request-form input[type="submit"]:hover {
+    background-color: darken($primary-color, 15%)
+}
+.boost .request-form input[type="text"]::placeholder {
+    color: #a9a9a9;
+}
+.request-form .input-holder {
+    width: 281px;
+    position: relative;
+    margin: 0 10px 0 0;
+}
+.boost .image-holder .pagination {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    li {
+        margin: 0 5px 0 0;
+    }
+    button {
+        width: 12px;
+        height: 16px;
+        border-radius: 50%;
+        border-style: none;
+        border: 2px solid #dedfe0;
+        background-color: #fff;
+        transition: border-color .3s;
+    }
+    .active {
+        border: 2px solid #1ca8dd;
+    }
+    button:hover {
+        border-color: #1ca8dd;
+    }
+}

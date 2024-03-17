@@ -1,0 +1,76 @@
+.happy-clients {
+    background-color: #ffc155;
+    text-align: center;
+    padding: 132px 0 142px;
+    .text-holder {
+        margin: 0 0 58px;
+    }
+    h1 {
+        letter-spacing: -0.75px;
+        text-transform: uppercase;
+        font: 30px/36px 'Gotham', Arial, Helvetica, sans-serif;
+        color: #fff;
+        margin: 0;
+    }
+    span {
+        font: 16px/19px "Open Sans", Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+}
+.happy-clients .clients-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 -36px;
+    .card {
+        width:  47%;
+        display: flex;
+        margin: 0 0 20px 36px;
+        background-color: #fff;
+    }
+    .avatar {
+        overflow: hidden;
+        border-radius: 50%;
+        flex-shrink: 0;
+        width: 121px;
+        height: 121px;
+        margin: 40px 0 0 30px;
+    }
+    .info-holder {
+        flex-grow: 1;
+        color: #7b7b7b;
+        font: 13px/22px "Open Sans", Arial, Helvetica, sans-serif;
+        padding: 44px 31px 48px;
+        text-align: left;
+        position: relative;
+    }
+    blockquote {
+        margin: 0 0 8px;
+    }
+    blockquote::before {
+        position: absolute;
+        content: '“';
+        top: 53px;
+        left: 13px;
+        font: 30px/1px "Brandon Grotesque", Arial, Helvetica, sans-serif;
+    }
+    blockquote::after {
+        position: absolute;
+        content: '“';
+        transform: rotateY(180deg) translateY(23px);
+        font: 30px/1px "Brandon Grotesque", Arial, Helvetica, sans-serif;
+    }
+    .autor-holder {
+        padding: 8px 0 0;
+        text-align: unset;
+    }
+    .autor {
+        color: #f6772c;
+        text-transform: uppercase;
+        font: 14px/17px "Lato", Arial, Helvetica, sans-serif;
+    }
+    span {
+        color: #99a9ae;
+        text-transform: uppercase;
+        font: 14px/17px "Lato", Arial, Helvetica, sans-serif;
+    }
+}

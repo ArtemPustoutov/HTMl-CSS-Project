@@ -1,0 +1,49 @@
+.adress {
+    background-image: url(../images/map-img.png);
+    padding: 49px 0 213px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    .adress-content {
+        width: 279px;
+        height: 292px;
+        border-radius: 50%;
+        background-image: url(../images/adress-content-img.jpg);
+        margin: 0 auto 6px;
+        text-align: center;
+    }
+    .text-holder {
+        padding: 47px 0 0;
+    }
+    h1 {
+        color: #ffffff;
+        font: 15px/18px "Lato", Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    li:last-child {
+        margin: 0 0 3px;
+    }
+    li {
+        color: #aeb7ba;
+        font: 13px/16px "Open Sans", Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: 0 0 9px 0;
+    }
+    a {
+        font: 13px/16px "Open Sans", Arial, Helvetica, sans-serif;
+        color: #aeb7ba;
+    }
+    .email a {
+        color: #ffbb42;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .logo {
+        text-align: center;
+    }
+}

@@ -1,0 +1,77 @@
+.our-services {
+    padding: 195px 0 83px;
+    text-align: center;
+    .text-holder {
+        margin: 0 0 86px;
+    }
+    h1 {
+        font: 30px/36px 'Gotham', Arial, Helvetica, sans-serif;
+        letter-spacing: -0.75px;
+        color: #394b50;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    span {
+        font: 16px/19px "Open Sans", Arial, Helvetica, sans-serif;
+        color: #394b50;
+    }
+    h2 {
+        color: #394b50;
+        font: 700 16px/19px 'Lato', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        text-align: left;
+        margin: 0 0 11px 0;
+    }
+}
+.our-services .box-holder {
+    display: flex;
+    margin: 0 0 0 -70px;
+    p {
+        color: #7b7b7b;
+    }
+    .box {
+        width: 100%;
+        text-align: left;
+        margin: 0 0 71px;
+        position: relative;
+    }
+    .box:hover::before {
+        color: #f9a675;
+    }
+    .box::before {
+        position: absolute;
+        top: 21px;
+        left: -85px;
+        font-family: "FontAwesome";
+        font-size: 50px;
+        line-height: 1px;
+    }
+    .clock::before {
+        content: '\f017';
+    }
+    .head::before {
+        content: "\f19d";
+    }
+    .fully::before {
+        content: "\f013";
+    }
+    .retina::before {
+        content: '\f135';
+    }
+    .flat::before {
+        content: "\f155";
+        top: 24px;
+        left: -68px;
+    }
+    .friendly::before {
+        content: '\f18b';
+    }
+    .holder-one {
+        width: 50%;
+        margin: 0 0 0 152px;
+    }
+    .holder-two {
+        width: 50%;
+        margin: 0 0 0 142px;
+    }
+}

@@ -1,0 +1,50 @@
+.about-us {
+    background-color: $primary-color;
+    position: relative;
+    color: #fff;
+    padding: 155px 0 187px;
+    .center-block {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .image-holder {
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 50%;
+    }
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .text-holder {
+        width: 515px;
+        padding: 0 0 0 10px;
+    }
+    h1 {
+        font: 30px/36px 'Gotham', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: -0.75px;
+        margin: 0 0 14px;
+    }
+    p {
+        font: 13px/24px 'Open Sans', Arial, Helvetica, sans-serif;
+    }
+    .content {
+        margin: 0 0 41px;
+    }
+    a {
+        color: #fff;
+        padding: 14px 31px;
+        border: 1px solid #e7ad48;
+        transition: background-color .3s;
+        text-transform: uppercase;
+        font: 14px/17px 'Lato', Arial, Helvetica, sans-serif;
+    }
+    a:hover {
+        background-color: darken($primary-color, 15%);
+    }
+}
